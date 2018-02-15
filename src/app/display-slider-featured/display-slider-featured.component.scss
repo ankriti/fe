@@ -1,0 +1,37 @@
+.example-card {
+    width: 400px;
+  }
+  .image-logo{
+
+    max-width: 100%;
+}
+.image-container {
+    position: relative;
+    height:100%;
+
+  }
+  .leftClicker{
+    position: absolute;
+    top: 40%;  
+    bottom: 20%;  
+    left: 0;   
+    margin: auto;
+  }
+  .rightClicker{
+    position: absolute;
+    top: 40%;  
+    bottom: 20%;  
+    right: 0; 
+  }
+  .baldButton{
+    padding: 0;
+    border: none;
+    background: none;
+  }
+  .cardFeaturedImage{
+      width:100%;
+  }
+  .contaierTest{
+    width:100%;
+  }
+ 

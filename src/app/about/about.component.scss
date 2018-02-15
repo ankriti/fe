@@ -1,0 +1,13 @@
+.image-logo{
+    max-width: 100%;
+    height: 350px;
+    box-sizing: inherit;
+    border-style: outset;
+}
+
+#hover-content {
+    display:none;
+}
+#parent:hover #hover-content {
+    display:block;
+}
