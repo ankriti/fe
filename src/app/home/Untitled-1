@@ -1,0 +1,55 @@
+<div class="wrapper">
+  <input checked type=radio name="slider" id="slide1" />
+  <input type=radio name="slider" id="slide2" />
+  <input type=radio name="slider" id="slide3" />
+  <input type=radio name="slider" id="slide4" />
+  <input type=radio name="slider" id="slide5" />
+
+  <div class="slider-wrapper">
+    <div class=inner>
+      <article>
+        <div class="info top-left">
+          <h3>Malacca</h3></div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tdPDE_gcyzc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>      </article>
+      <article>
+        <div class="info bottom-right">
+          <h3>Cameron Highland</h3></div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/uqr8X7cp4WY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>     </article>
+
+      <article>
+        <div class="info bottom-left">
+          <h3>New Delhi</h3></div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/hQCCHRZV0Lk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>         </article>
+    
+      <article>
+        <div class="info top-right">
+          <h3>Ladakh</h3></div>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/4Hpk4-uMvv8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    </article>
+
+      <article>
+        <div class="info bottom-left">
+          <h3>Nubra Valley</h3></div>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/KQPiLTOtcww" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>      </article>
+    </div>
+    <!-- .inner -->
+  </div>
+  <!-- .slider-wrapper -->
+
+  <div class="slider-prev-next-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-prev-next-control -->
+
+  <div class="slider-dot-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-dot-control -->
+</div>

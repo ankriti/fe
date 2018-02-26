@@ -1,13 +1,165 @@
-.image-logo{
-    max-width: 100%;
-    height: 350px;
-    box-sizing: inherit;
-    border-style: outset;
+.image-logo {
+  max-width: 100%;
+  height: 350px;
+  box-sizing: inherit;
+  border-style: outset;
 }
 
 #hover-content {
-    display:none;
+  display: none;
 }
+
 #parent:hover #hover-content {
-    display:block;
+  display: block;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+html {
+  background-color: #f0f0f0;
+  color: #404040;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 2rem 0 0 2rem;
+  text-shadow: 1px 0px 1px #b9b9b9, 0px 1px 1px #a7a7a7, 2px 1px 1px #b9b9b9;
+}
+
+.description {
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 2rem 2rem 2rem;
+}
+
+div {
+  box-shadow: 0px 4px 6px #c4c4c4;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 2rem 4rem 2rem;
+  overflow: auto;
+}
+
+.warning {
+  border-left: 10px solid #c80000;
+}
+
+.notice {
+  border-left: 10px solid #f5c30f;
+}
+
+.more-info {
+  border-left: 10px solid #0a3cc8;
+}
+
+.all-clear {
+  border-left: 10px solid #0f910f;
+}
+
+.symbol-wrapper,
+.text-wrapper {
+  box-shadow: none;
+  display: inline;
+  margin: 0 auto;
+}
+
+.symbol-wrapper {
+  background-color: #cdcdcd;
+  float: left;
+  text-align: center;
+  width: 124px;
+}
+
+span {
+  font-size: 1rem;
+  line-height: 2.1;
+}
+
+.entypo-cancel-circled {
+  color: #c80000;
+  text-shadow: 1px 0px 1px #7c0000, 0px 1px 1px #580000, 2px 1px 1px #7c0000;
+}
+
+.entypo-attention {
+  color: #f5c30f;
+  text-shadow: 1px 0px 1px #b08b07, 0px 1px 1px #8e7006, 2px 1px 1px #b08b07;
+}
+
+.entypo-info-circled {
+  color: #0a3cc8;
+  text-shadow: 1px 0px 1px #06267f, 0px 1px 1px #051c5d, 2px 1px 1px #06267f;
+}
+
+.entypo-check {
+  color: #0f910f;
+  text-shadow: 1px 0px 1px #084c08, 0px 1px 1px #042b04, 2px 1px 1px #084c08;
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin: 1rem 0 0 3rem;
+  text-shadow: 1px 0px 1px #b9b9b9, 0px 1px 1px #a7a7a7, 2px 1px 1px #b9b9b9;
+}
+
+p {
+  margin: 2rem 3rem;
+}
+
+
+.person-card {
+    float: left;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    height: 300px;
+    width: 320px;
+    overflow: hidden;
+    border: 1px solid #2780E3;
+  }
+  .person-card .person-img {
+    width: 100%;
+    height: auto;
+  }
+  .person-card .person-info {
+    position: absolute;
+    top: 236px;
+    left: -30px;
+    height: 300px;
+    width: 100%;
+    color: #fff;
+    background-color: #2780E3;
+    opacity: 0.9;
+    -ms-transition: -ms-transform 0.75s;
+    -webkit-transition: -webkit-transform 0.75s;
+    transition: transform 0.75s;
+  }
+  .person-card .person-info:hover {
+    -ms-transform: translateY(-236px);
+    -webkit-transform: translateY(-236px);
+    transform: translateY(-236px);
+  }
+  .person-card .person-info .details-title {
+    height: 44px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .person-card .person-info .details-title small {
+    font-size: 70%;
+    color: #f7f7f7;
+  }
+  .person-card .person-info .details-body {
+    padding: 10px;
+    text-align: center;
+  }
+  

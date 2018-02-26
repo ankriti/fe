@@ -1,15 +1,16 @@
 <div class="container footer background-footer" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign.xs="start center" fxLayoutAlign.sm="start center"
-  fxLayoutAlign.gt-sm="center center" fxLayoutWrap fxLayoutGap="10px">
+  fxLayoutAlign.gt-sm=" center" fxLayoutWrap fxLayoutGap="10px" 
+  >
   <div fxFlex="100%" fxFlex.gt-sm="50%">
     <div fxLayout="row">
       <div fxFlex="40" fxFlexOffset="20px">
         <h4>Links</h4>
         <mat-list>
           <mat-list-item>
-            <a mat-mini-fab><i class="material-icons">home</i></a>
+            <a mat-mini-fab routerLink="/home"><i class="material-icons">home</i></a>
           </mat-list-item>
           <mat-list-item>
-            <a mat-mini-fab><i class="material-icons">info</i></a>
+            <a mat-mini-fab routerLink="/about"><i class="material-icons">info</i></a>
           </mat-list-item>
           <!-- <mat-list-item>
             <a mat-mini-fab><i class="fa fa-pagelines" aria-hidden="true"></i></a>
@@ -18,7 +19,7 @@
               <a mat-mini-fab><i class="material-icons" >work</i></a>
           </mat-list-item> -->
           <mat-list-item>
-            <a mat-mini-fab><i class="material-icons">contact_mail</i></a>
+            <a mat-mini-fab routerLink="/contact   "><i class="material-icons">contact_mail</i></a>
           </mat-list-item>
         </mat-list>
       </div>

@@ -23,9 +23,12 @@ import { FeaturedProductComponent } from './featured-product/featured-product.co
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
-import { AppRoutingModule } from './app-routing/app-routing.module';
+// import { AppRoutingModule } from './app-routing/app-routing.module';
 import { DisplaySliderFeaturedComponent } from './display-slider-featured/display-slider-featured.component';
 import { ServicesComponent } from './services/services.component';
+import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule, routedComponents } from './app-rounting.module';
+import { AuthService } from './auth/auth.service';
 
 
 @NgModule({
@@ -40,7 +43,8 @@ import { ServicesComponent } from './services/services.component';
     ContactComponent,
     HomeComponent,
     DisplaySliderFeaturedComponent,
-    ServicesComponent
+    ServicesComponent,
+    routedComponents
   ],
   imports: [
     BrowserModule,
@@ -53,8 +57,11 @@ import { ServicesComponent } from './services/services.component';
     MatGridListModule,
     MatCardModule,
     AppRoutingModule
-  ],
-  providers: [],
+    ],
+    providers: [
+      AuthService
+    ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
